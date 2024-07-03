@@ -49,10 +49,13 @@ root.render(
 
       <Route path="/contactUs" element={<ContactUs/>}/>
 
-      <Route path="/bookNow" element={<BookNow/>}/>
+      <Route path="/bookNow" element={<BookNow state="booking"/>}/>
+      <Route path="/bookNow/login" element={<BookNow state="login"/>}/>
+      <Route path="/bookNow/signup" element={<BookNow state="signup"/>}/>
+      <Route path="/bookNow/confirm" element={<BookNow state="confirm"/>}/>
 
-      <Route path="/account/opt1" element={<AccountOpt1/>}/> 
-      <Route path="/account/opt2" element={<AccountOpt2/>}/> 
+      <Route path="/account/opt1" element={<AccountOpt1/>}/>
+      <Route path="/account/opt2" element={<AccountOpt2/>}/>
     </Routes>
   </BrowserRouter>
 );

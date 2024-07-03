@@ -4,11 +4,14 @@ import { useState } from "react";
 
 import PageTop from "./sub-components/PageTop.jsx"
 import PageBottom from "./sub-components/PageBottom.jsx"
+import BookingPopups from "./sub-components/BookingPopups.jsx"
 
 export default function BookNow(props) {
     const [radioValue, setRadioValue] = useState(0);
     const [chosenService, setchosenService] = useState("");
     const [chosenTime, setchosenTime] = useState("");
+    const [makeReccuring, setmakeReccuring] = useState(false);
+    const bookingState = props.state;
 
     const onchangeServiceCategory = (e) => {
         if (e.target.checked) setRadioValue(e.target.value);
@@ -18,6 +21,10 @@ export default function BookNow(props) {
     }
     const onTimeSelect = (e) => {
         setchosenTime(e);
+    }
+    const makeReccuringChanged = (e) => {
+        setmakeReccuring(e.target.checked);
+        console.log(makeReccuring);
     }
 
     return (
@@ -82,16 +89,21 @@ export default function BookNow(props) {
                             <Form.Check
                                 type="switch"
                                 label="Make Recurring?"
+                                onChange={makeReccuringChanged}
                             />
                         </Col>
                     </Row>
                 </Form>
                 <div className="d-flex justify-content-center">
-                    <a className="btn btn-secondary">Book Now</a>
+                    <a href="/bookNow/login" className="btn btn-secondary">Book Now</a>
                 </div>
             </div>
         </Container>
         <PageBottom/>
+        {bookingState === "booking" ? "" : 
+        <div className="d-flex justify-content-center align-items-center" style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.75)", position:"absolute", top:"0", zIndex:"3", position:"fixed"}}>
+            <BookingPopups popup={props.state}/>
+        </div>}
         </>
     )
   }

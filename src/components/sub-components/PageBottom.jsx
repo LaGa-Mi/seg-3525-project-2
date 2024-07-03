@@ -1,17 +1,19 @@
 import {Container, Row, Col} from "react-bootstrap"
 
 export default function PageBottom(props) {
+    const iconSizes = "40px";
+
     return (
-        <div className="mt-5 py-4 bg-primary bg-opacity-75">
+        <div className="mt-5 py-4 bg-primary text-light">
             <Container>
                 <Row>
                     <Col className="d-flex flex-column justify-content-between me-5">
                         <h1>Site Name</h1>
                         <div className="d-flex flex-row justify-content-between">
-                            <img src={require("../../resources/placeholder.png")} style={{height:"20px", width:"20px"}}></img>
-                            <img src={require("../../resources/placeholder.png")} style={{height:"20px", width:"20px"}}></img>
-                            <img src={require("../../resources/placeholder.png")} style={{height:"20px", width:"20px"}}></img>
-                            <img src={require("../../resources/placeholder.png")} style={{height:"20px", width:"20px"}}></img>
+                            <a target="_blank" href="https://www.instagram.com"><img src={require("../../resources/instaLogo.png")} style={{height:iconSizes, width:iconSizes}}></img></a>
+                            <a target="_blank" href="https://www.facebook.com"><img src={require("../../resources/facebookLogo.png")} style={{height:iconSizes, width:iconSizes}}></img></a>
+                            <a target="_blank" href="https://www.linkedin.com"><img src={require("../../resources/linkedinLogo.png")} style={{height:iconSizes, width:iconSizes}}></img></a>
+                            <a target="_blank" href="https://x.com/home?lang=en"><img src={require("../../resources/xLogo.png")} style={{height:iconSizes, width:iconSizes}}></img></a>
                         </div>
                     </Col>
                     <Col className="d-flex flex-column justify-content-between ms-5">
