@@ -1,0 +1,40 @@
+$primary: #000080;
+$secondary: #136d15;
+
+@import '~bootstrap/scss/bootstrap';
+
+/****************************************************************************************
+ * Globals
+****************************************************************************************/
+/*#region globals*/
+.style-line-long {
+    width: 300px;
+    height: 4px;
+    background-color: $primary;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.style-line-short {
+    width: 150px;
+    height: 4px;
+    background-color: $primary;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.bg-tertiary {
+    background-color: #ddd;
+}
+/*#endregion globals*/
+
+/****************************************************************************************
+ * Navbar
+****************************************************************************************/
+/*#region navbar*/
+    .sticking {
+        background-color: rgba(0, 0, 128, 0.8);
+    }
+/*#endregion navbar*/
