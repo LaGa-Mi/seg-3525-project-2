@@ -32,7 +32,7 @@ import AccountOpt2 from "./components/AccountOpt2"
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" element={<Home/>}/>
 
