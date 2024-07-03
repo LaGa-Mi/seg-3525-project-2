@@ -6,6 +6,7 @@ import {Routes,Route} from 'react-router'
 
 // Bootstrap imports
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/dist/js/bootstrap.js'
 
 // Personal imports
 import './sass/styles.css';

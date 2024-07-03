@@ -8,13 +8,35 @@ export default function Home(props) {
     return (
         <>
         <PageTop
-            h1="KeywordsKeywordsKeywords"
-            h2="SloganSloganSlogan"
-            button="Contact Us"
-            buttonTo="/contactUs"
-            img={require("../resources/yardWorkbg.jpg")}
-            alt="Yard Work"
-            source="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.brotherslpm.ca%2F&psig=AOvVaw2Wrgpke7bS3pDDKtPL-Uck&ust=1719768279245000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDWgZ2qgYcDFQAAAAAdAAAAABAE"
+            arr={[
+                {
+                    h1: "Yard Work",
+                    h2: "Slide 1 Slogan",
+                    button: "Learn More",
+                    buttonTo: "/services/yardWork",
+                    img: require("../resources/yardWorkbg.jpg"),
+                    alt: "Yard Work",
+                    source:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.brotherslpm.ca%2F&psig=AOvVaw2Wrgpke7bS3pDDKtPL-Uck&ust=1719768279245000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDWgZ2qgYcDFQAAAAAdAAAAABAE",
+                },
+                {
+                    h1: "Car Washing",
+                    h2: "Slide 2 Slogan",
+                    button: "Learn More",
+                    buttonTo: "/services/carWashing",
+                    img: require("../resources/carWash.png"),
+                    alt: "Yard Work",
+                    source:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.brotherslpm.ca%2F&psig=AOvVaw2Wrgpke7bS3pDDKtPL-Uck&ust=1719768279245000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDWgZ2qgYcDFQAAAAAdAAAAABAE",
+                },
+                {
+                    h1: "Dog Walking",
+                    h2: "Slide 3 Slogan",
+                    button: "Learn More",
+                    buttonTo: "/services/dogWalking",
+                    img: require("../resources/dogWalking.png"),
+                    alt: "Yard Work",
+                    source:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.brotherslpm.ca%2F&psig=AOvVaw2Wrgpke7bS3pDDKtPL-Uck&ust=1719768279245000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDWgZ2qgYcDFQAAAAAdAAAAABAE",
+                }
+            ]}
             active="home"
             large={true}
         />

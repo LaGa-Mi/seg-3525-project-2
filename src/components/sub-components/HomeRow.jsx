@@ -6,7 +6,7 @@ function imgCol(props) {
 
 function descCol(props) {
     return (
-    <Col className="d-flex flex-column justify-content-center align-items-center">
+    <Col className="d-flex flex-column justify-content-center align-items-center p-0">
         <h1>{props.title}</h1>
         <p>{props.description}</p>
         <a href={props.to}>Learn More</a>

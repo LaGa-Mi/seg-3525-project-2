@@ -11,6 +11,7 @@ export default function ContactUs(props) {
             img={require("../resources/placeholder.png")}
             alt=""
             source=""
+            active="contactUs"
         />
         <Container className="mt-5">
             <h1 className="display-3">H1</h1>

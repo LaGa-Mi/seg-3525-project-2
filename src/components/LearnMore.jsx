@@ -13,6 +13,7 @@ const jobs = [
         "Learn essential yard work tips for maintaining your garden, lawn, and trees during the fall season.",
         "Gardening Today",
         "Article",
+        "#",
         ["Yard Work"],
         ["Gardening", "Lawn Care", "Trees/Hedges"],
         ["Fall"]
@@ -23,6 +24,7 @@ const jobs = [
         "Discover the best practices for washing your car during the winter to prevent salt and grime buildup.",
         "Auto Care Weekly",
         "Video",
+        "#",
         ["Car Washing"],
         ["Maintenance/Prevention"],
         ["Winter"]
@@ -33,6 +35,7 @@ const jobs = [
         "Explore the best dog walking routes to enjoy with your pet during the spring season.",
         "Pet Walks Magazine",
         "Article",
+        "#",
         ["Dog Walking"],
         ["Walk Locations"],
         ["Spring"]
@@ -43,6 +46,7 @@ const jobs = [
         "Keep your lawn green and healthy during the hot summer months with these expert tips.",
         "Lawn Care Monthly",
         "Article",
+        "#",
         ["Yard Work"],
         ["Lawn Care"],
         ["Summer"]
@@ -53,6 +57,7 @@ const jobs = [
         "A comprehensive guide on trimming hedges effectively during the spring season for optimal growth.",
         "Gardeners' World",
         "Video",
+        "#",
         ["Yard Work"],
         ["Trees/Hedges"],
         ["Spring"]
@@ -63,6 +68,7 @@ const jobs = [
         "Learn important health tips to keep your dog safe and healthy during the summer.",
         "Healthy Pets",
         "Article",
+        "#",
         ["Dog Walking"],
         ["Dog Health"],
         ["Summer"]
@@ -73,6 +79,7 @@ const jobs = [
         "Get inspired by these hardscape design ideas to enhance your outdoor space even during the winter.",
         "Outdoor Design Journal",
         "Video",
+        "#",
         ["Yard Work"],
         ["Hardscape"],
         ["Winter"]
@@ -83,6 +90,7 @@ const jobs = [
         "Find out the best car cleaning tips to refresh your vehicle after the winter season.",
         "Spring Car Care",
         "Article",
+        "#",
         ["Car Washing"],
         ["Cleaning"],
         ["Spring"]
@@ -296,7 +304,7 @@ export default function LearnMore(props) {
                         image={elem[1]}
                         description={elem[2]}
                         publisher={elem[3]}
-                        display={displayMedia(elem[4], elem[5], elem[6], elem[7])}
+                        display={displayMedia(elem[5], elem[6], elem[7], elem[8])}
                         isVideo={elem[4] === "Video"}
                         />
                     )
