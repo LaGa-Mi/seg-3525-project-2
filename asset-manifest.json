@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/seg-3525-project-2/static/css/main.c6ebce90.css",
+    "main.js": "/seg-3525-project-2/static/js/main.1cc669f3.js",
+    "static/media/carWash.png": "/seg-3525-project-2/static/media/carWash.fed821e1a20bdd2a58ad.png",
+    "static/media/dogWalking.png": "/seg-3525-project-2/static/media/dogWalking.bc3cc63aab7eb994b0d6.png",
+    "static/media/yardWorkbg.jpg": "/seg-3525-project-2/static/media/yardWorkbg.5d1a8bf524f176eaee4f.jpg",
+    "static/media/bootstrap-icons.woff?": "/seg-3525-project-2/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/seg-3525-project-2/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/vid.png": "/seg-3525-project-2/static/media/vid.b1fd9cfb6e05da00909e.png",
+    "static/media/linkedinLogo.png": "/seg-3525-project-2/static/media/linkedinLogo.e58a63127e27fe72211e.png",
+    "static/media/instaLogo.png": "/seg-3525-project-2/static/media/instaLogo.12a3326d2767a99fb8f9.png",
+    "index.html": "/seg-3525-project-2/index.html",
+    "main.c6ebce90.css.map": "/seg-3525-project-2/static/css/main.c6ebce90.css.map",
+    "main.1cc669f3.js.map": "/seg-3525-project-2/static/js/main.1cc669f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6ebce90.css",
+    "static/js/main.1cc669f3.js"
+  ]
+}
