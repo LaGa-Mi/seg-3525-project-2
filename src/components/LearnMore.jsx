@@ -173,6 +173,9 @@ export default function LearnMore(props) {
                     case "Dog Walking":
                         ind = 2;
                         break;
+                    default:
+                        ind = -1;
+                        break;
                 }
                 for (let j = 0; j < allCategories[ind].length; j++)
                     retVal.push(allCategories[ind][j]);

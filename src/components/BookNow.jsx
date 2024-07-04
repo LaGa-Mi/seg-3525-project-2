@@ -101,7 +101,7 @@ export default function BookNow(props) {
         </Container>
         <PageBottom/>
         {bookingState === "booking" ? "" : 
-        <div className="d-flex justify-content-center align-items-center" style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.75)", position:"absolute", top:"0", zIndex:"3", position:"fixed"}}>
+        <div className="d-flex justify-content-center align-items-center" style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.75)", top:"0", zIndex:"3", position:"fixed"}}>
             <BookingPopups popup={props.state}/>
         </div>}
         </>

@@ -21,7 +21,7 @@ export default function JobPosting(props) {
                 </ul>
                 <h3>Salary Range</h3>
                 <p>{USDollar.format(props.salary[0]) + " - " + USDollar.format(props.salary[1])}</p>
-                <a className="btn btn-secondary mt-auto">Apply</a>
+                <button className="btn btn-secondary mt-auto">Apply</button>
             </div>
         </div>
     )

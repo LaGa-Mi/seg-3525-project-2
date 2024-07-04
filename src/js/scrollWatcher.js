@@ -24,7 +24,7 @@ if (document.readyState === 'complete') {
     scrollObs();
 } else {
     document.onreadystatechange = function () {
-        if (document.readyState == "complete") {
+        if (document.readyState === "complete") {
             scrollObs();
         }
     }

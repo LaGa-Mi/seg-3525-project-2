@@ -23,7 +23,7 @@ export default function AboutUsOurMission(props) {
                 id. Sed libero enim sed faucibus turpis in eu mi. In pellentesque massa placerat duis ultricies lacus sed.
                 Bibendum at varius vel pharetra vel turpis nunc eget lorem. Ornare lectus sit amet est placerat.</p>
             <div className="d-flex mt-5" style={{width:"100%"}}>
-                <div style={{width:"40%"}}><img src={require("../resources/placeholder.png")} style={{width:"100%", objectFit:"contain"}}></img></div>
+                <div style={{width:"40%"}}><img src={require("../resources/placeholder.png")} alt="" style={{width:"100%", objectFit:"contain"}}></img></div>
                 <div className="d-flex flex-column align-items-end justify-content-center" style={{width:"60%"}}>
                     <div className="d-flex flex-column" style={{width:"90%"}}>
                         <h1 className="display-5"> Where Do We Offer Services</h1>

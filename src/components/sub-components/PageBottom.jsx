@@ -10,10 +10,10 @@ export default function PageBottom(props) {
                     <Col className="d-flex flex-column justify-content-between me-5">
                         <h1>Site Name</h1>
                         <div className="d-flex flex-row justify-content-between">
-                            <a target="_blank" href="https://www.instagram.com"><img src={require("../../resources/instaLogo.png")} style={{height:iconSizes, width:iconSizes}}></img></a>
-                            <a target="_blank" href="https://www.facebook.com"><img src={require("../../resources/facebookLogo.png")} style={{height:iconSizes, width:iconSizes}}></img></a>
-                            <a target="_blank" href="https://www.linkedin.com"><img src={require("../../resources/linkedinLogo.png")} style={{height:iconSizes, width:iconSizes}}></img></a>
-                            <a target="_blank" href="https://x.com/home?lang=en"><img src={require("../../resources/xLogo.png")} style={{height:iconSizes, width:iconSizes}}></img></a>
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com"><img src={require("../../resources/instaLogo.png")} alt="Our instagram page" style={{height:iconSizes, width:iconSizes}}></img></a>
+                            <a target="_blank" rel="noreferrer" href="https://www.facebook.com"><img src={require("../../resources/facebookLogo.png")} alt="Our facebook page" style={{height:iconSizes, width:iconSizes}}></img></a>
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com"><img src={require("../../resources/linkedinLogo.png")} alt="Our linkedin page" style={{height:iconSizes, width:iconSizes}}></img></a>
+                            <a target="_blank" rel="noreferrer" href="https://x.com/home?lang=en"><img src={require("../../resources/xLogo.png")} alt="Our x page" style={{height:iconSizes, width:iconSizes}}></img></a>
                         </div>
                     </Col>
                     <Col className="d-flex flex-column justify-content-between ms-5">
