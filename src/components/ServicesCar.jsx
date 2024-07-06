@@ -1,6 +1,7 @@
 import {Container} from "react-bootstrap"
 
 import PageTop from "./sub-components/PageTop.jsx"
+import PageBottom from "./sub-components/PageBottom.jsx"
 
 export default function ServicesCar(props) {
     return (
@@ -13,9 +14,9 @@ export default function ServicesCar(props) {
             source=""
         />
         <Container className="mt-5">
-            <h1 className="display-3">H1</h1>
-            <p>ppppppppppppppppppppppppppppppppp</p>
+            <h1>This page is mainly for esthetics, not very important to test the "processus cognitifs"</h1>
         </Container>
+        <PageBottom/>
         </>
     )
   }

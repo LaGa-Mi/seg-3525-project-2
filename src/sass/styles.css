@@ -12000,4 +12000,8 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 128, 0.8);
 }
 
+#main-navbar:hover {
+  background-color: rgba(0, 0, 128, 0.8);
+}
+
 /*#endregion navbar*//*# sourceMappingURL=styles.css.map */
