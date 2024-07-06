@@ -24,7 +24,7 @@ export default function BookingPopups(props) {
                                         <input type="text" className="form-control" placeholder="Password" aria-label="Password" aria-describedby="Password" />
                                     </div>
                                     <button className="btn btn-primary" onClick={() => {props.stateChange(CONFIRM)}}>Login</button>
-                                    <a href="javascript:;" onClick={() => {props.stateChange(SIGNUP)}}>Don't have an account? Create one!</a>
+                                    <p onClick={() => {props.stateChange(SIGNUP)}} style={{cursor:"pointer"}}><u>Don't have an account? Create one!</u></p>
                                 </div>
                             </div>
                         </div>
