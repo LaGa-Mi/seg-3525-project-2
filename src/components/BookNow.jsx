@@ -8,8 +8,8 @@ import BookingPopups from "./sub-components/BookingPopups.jsx"
 import CalendarInput from "./sub-components/CalendarInput.jsx";
 import LinearProgression from "./sub-components/LinearProgression.jsx"
 
-const DONE = 0, ACTIVE = 1, NEXT = 2, LOCKED = 3;
-const NONE = 0, LOGIN = 1, SIGNUP = 2, CONFIRM = 3;
+const /*DONE = 0,*/ ACTIVE = 1, NEXT = 2, LOCKED = 3;
+const NONE = 0, LOGIN = 1/*, SIGNUP = 2, CONFIRM = 3*/;
 
 export default function BookNow(props) {
     const [radioValue, setRadioValue] = useState(0);
@@ -36,9 +36,9 @@ export default function BookNow(props) {
             setNode(2, LOCKED);
         }
     }
-    const resetNodes = () => {
+    /*const resetNodes = () => {
         setNodes([ACTIVE, NEXT, LOCKED, NEXT]);
-    }
+    }*/
     const setNode = (indSet, val) => {
         if (nodes[indSet][0] === LOCKED) return nodes;
         setNodes(nodes.map((elem, index) => {

@@ -1,4 +1,4 @@
-const DONE = 0, ACTIVE = 1, NEXT = 2, LOCKED = 3;
+const /*DONE = 0,*/ ACTIVE = 1/*, NEXT = 2, LOCKED = 3*/;
 
 export default function LinearProgression(props) {
     const styles=[
