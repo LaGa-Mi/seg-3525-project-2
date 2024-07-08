@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function MainNavbar(props) {
   return (
-    <Navbar id="main-navbar" expand="lg" className="navbar-dark top-0 w-100" style={{position:"fixed", zIndex:"2"}}>
+    <Navbar id="main-navbar" expand="lg" className="navbar-dark top-0 w-100" style={{position:"fixed", zIndex:"2", transition:"0.3s"}}>
       <Container>
         <Navbar.Brand href="/">Logo Placeholder</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
